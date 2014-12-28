@@ -4,6 +4,8 @@ Ruby 2.1.2p95 (2014-05-08 revision 45877) [x86_64-darwin12.0]
 psql (PostgreSQL) 9.3.5
 Rails 4.2.0.rc1
 
+https://trello.com/b/OZZ2rcaN/oblique-strategies
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
