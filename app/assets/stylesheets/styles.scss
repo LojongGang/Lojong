@@ -3,66 +3,92 @@
 $maroon: #AD291F;
 $gold: #CFAE4C;
 $red: #BA1E13;
-$grey-dark: #686868;
 $grey-medium: #808080;
-$grey-light: #989898;
+$cream: #F7F6ED;
 
-$width-small: 400px;
-$width-medium: 760px;
-$width-large: 1100px;
+$width-small: 768px;
+$width-medium: 992px;
+$width-large: 1200px;
 
-@mixin rounded($radius) {
+@mixin rounded($radius: 9px) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
           border-radius: $radius;
 }
 
-@mixin white_fade {
-  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
+@mixin cream_fade {
+  background: -moz-linear-gradient(top,  rgba(247,246,237,0) 0%, rgba(247,246,237,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,246,237,0)), color-stop(100%,rgba(247,246,237,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(247,246,237,0) 0%,rgba(247,246,237,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(247,246,237,0) 0%,rgba(247,246,237,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(247,246,237,0) 0%,rgba(247,246,237,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(247,246,237,0) 0%,rgba(247,246,237,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   background: rgba(0,0,0,0);
 }
 
+// html, body {
+//   width:100%;
+//   height:100%
+// }
+
 body {
   background-color: #000;
-  padding: 1.1em;
 }
 
-body.lotus {
-  background-image: url(../images/Lotus_textile_768x1024.jpg);
-  background-color: $maroon;
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+.lotus {
+background-image: url(../images/Lotus_textile_768x1024.jpg);
+background-color: $maroon;
 }
 
 // mobile first
 section.main {
-  font-size: 14px;
-  line-height: 1.4;
-  background-color: #fff;
+  background-color: $cream;
   border: 3px solid $gold;
-  @include rounded(9px);
-  margin: 0 auto;
+  @include rounded();
   padding: 1em;
+  left:5%;
+  width:90%;
+  height:90%;
+  top:5%;
+  position:absolute;
+  text-align:center;
+  overflow: hidden;
 
-  @media screen and (max-width: $width-small) {
-    font-size: 1em;
+  // @media screen and (min-width: $width-small) and (max-width: $width-medium) {
+  //   font-size: 1.2em;
+  // }
+
+  // @media screen and (min-width: $width-medium + 1) and (max-width: $width-large) {
+  //   font-size: 1.4em;
+  //   max-width: 684px;
+  // }
+  // @media screen and (min-width: $width-large + 1) {
+  //   font-size: 1.5em;
+  //   max-width: 684px;
+  // }
+}
+
+.slogan {
+  font-size: 1.4em;
+  text-align: center;
+
+  h2, h3 {
+    color: $gold;
+    font-size: 1.7em;
   }
 
-  @media screen and (min-width: $width-small + 1) and (max-width: $width-medium) {
-    font-size: 1em;
-  }
-
-  @media screen and (min-width: $width-medium + 1) and (max-width: $width-large) {
-    font-size: 1em;
-    width: 684px;
-  }
 }
 
 div.fader {
-  @include white_fade;
+  @include cream_fade;
   height: 50px;
 }

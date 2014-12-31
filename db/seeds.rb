@@ -72,6 +72,8 @@ traleg = Author.create( {
   name: "Traleg Kyabgon Rinpoche"
 } )
 
+# SLOGANS ###
+
 Slogan.create ( {
     number: 1,
     slogan_text: "First, train in the preliminaries.",
