@@ -9,6 +9,8 @@
 Point.delete_all
 Author.delete_all
 Slogan.delete_all
+Point_comment.delete_all
+Slogan_comment.delete_all
 
 point_one = Point.create( { 
   number: "1", 
@@ -430,5 +432,230 @@ traleg = Author.create( {
 
 # POINT COMMENTARIES: ###
 
+point_comm_1_jamgon = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_one.id,
+    author_id: jamgon.id
+  })
+
+point_comm_1_chogyam = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_one.id,
+    author_id: chogyam.id
+  })
+
+point_comm_1_pema = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_one.id,
+    author_id: pema.id
+  })
+
+point_comm_1_traleg = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_one.id,
+    author_id: traleg.id
+  })
+
+point_comm_2a_jamgon = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_two_a.id,
+    author_id: jamgon.id
+  })
+
+point_comm_2a_chogyam = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_two_a.id,
+    author_id: chogyam.id
+  })
+
+point_comm_2a_pema = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_two_a.id,
+    author_id: pema.id
+  })
+
+point_comm_2a_traleg = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_two_a.id,
+    author_id: traleg.id
+  })
+
+point_comm_2b_jamgon = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_two_b.id,
+    author_id: jamgon.id
+  })
+
+point_comm_2b_chogyam = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_two_b.id,
+    author_id: chogyam.id
+  })
+
+point_comm_2b_pema = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_two_b.id,
+    author_id: pema.id
+  })
+
+point_comm_2b_traleg = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_two_b.id,
+    author_id: traleg.id
+  })
+
+point_comm_3_jamgon = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_three.id,
+    author_id: jamgon.id
+  })
+
+point_comm_3_chogyam = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_three.id,
+    author_id: chogyam.id
+  })
+
+point_comm_3_pema = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_three.id,
+    author_id: pema.id
+  })
+
+point_comm_3_traleg = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_three.id,
+    author_id: traleg.id
+  })
+
+point_comm_4_jamgon = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_four.id,
+    author_id: jamgon.id
+  })
+
+point_comm_4_chogyam = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_four.id,
+    author_id: chogyam.id
+  })
+
+point_comm_4_pema = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_four.id,
+    author_id: pema.id
+  })
+
+point_comm_4_traleg = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_four.id,
+    author_id: traleg.id
+  })
+
+point_comm_5_jamgon = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_five.id,
+    author_id: jamgon.id
+  })
+
+point_comm_5_chogyam = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_five.id,
+    author_id: chogyam.id
+  })
+
+point_comm_5_pema = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_five.id,
+    author_id: pema.id
+  })
+
+point_comm_5_traleg = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_five.id,
+    author_id: traleg.id
+  })
+
+point_comm_6_jamgon = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_six.id,
+    author_id: jamgon.id
+  })
+
+point_comm_6_chogyam = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_six.id,
+    author_id: chogyam.id
+  })
+
+point_comm_6_pema = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_six.id,
+    author_id: pema.id
+  })
+
+point_comm_6_traleg = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_six.id,
+    author_id: traleg.id
+  })
+
+point_comm_7_jamgon = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_seven.id,
+    author_id: jamgon.id
+  })
+
+point_comm_7_chogyam = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_seven.id,
+    author_id: chogyam.id
+  })
+
+point_comm_7_pema = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_seven.id,
+    author_id: pema.id
+  })
+
+point_comm_7_traleg = Point_comment.create( {
+    point_comm: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    point_id: point_seven.id,
+    author_id: traleg.id
+  })
+
 # SLOGAN COMMENTARIES: ###
+
+slogan_comm_1_jamgon = Slogan_comment.create( {
+    slog_comm_short: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    slog_comm_long: "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sagittis consectetur mauris ut vehicula. Donec sed est tristique, hendrerit lacus eget, mollis nulla. Praesent quis justo elit. Duis sed dui accumsan lacus tempor bibendum non sit amet lorem. Nulla dui magna, scelerisque at eros sit amet, condimentum faucibus erat. Duis varius lacus quis hendrerit lobortis. Aliquam metus dolor, condimentum et lacus in, venenatis blandit nibh. Maecenas nec sodales arcu. Curabitur faucibus consequat justo, at placerat eros. Nulla pharetra risus et odio varius tincidunt. Phasellus vulputate rutrum risus in sollicitudin.</p>
+    <p>Nulla ante arcu, tincidunt vel neque accumsan, ornare efficitur ipsum. Donec eget magna lorem. Aenean laoreet, velit vel feugiat ultricies, diam elit ultrices lacus, non feugiat tellus ex vitae nunc. Nam luctus, neque at congue efficitur, neque dui laoreet nibh, a dignissim tortor turpis sit amet mi. Sed nisi turpis, consequat scelerisque facilisis in, efficitur eget justo. Sed ullamcorper euismod ligula, non mollis metus volutpat ac. Mauris eu nisi vel orci consequat auctor. Phasellus eros quam, hendrerit et diam nec, porttitor ultricies nunc. Donec sit amet dui sollicitudin est ornare auctor. In dolor justo, pellentesque in interdum id, tempus non dui. Vestibulum quis turpis viverra, congue orci non, maximus orci. Praesent vitae laoreet justo. Morbi nisi tortor, euismod commodo vehicula eget, luctus et enim. Suspendisse elementum felis tellus, at pellentesque sapien cursus at. Donec lectus lacus, fermentum sed tempor vel, dapibus viverra turpis. Suspendisse dapibus erat quis ex vulputate faucibus.</p>",
+    slogan_id: slogan_1.id,
+    author_id: jamgon.id
+  })
+
+slogan_comm_1_chogyam = Slogan_comment.create( {
+    slog_comm_short: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    slog_comm_long: "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sagittis consectetur mauris ut vehicula. Donec sed est tristique, hendrerit lacus eget, mollis nulla. Praesent quis justo elit. Duis sed dui accumsan lacus tempor bibendum non sit amet lorem. Nulla dui magna, scelerisque at eros sit amet, condimentum faucibus erat. Duis varius lacus quis hendrerit lobortis. Aliquam metus dolor, condimentum et lacus in, venenatis blandit nibh. Maecenas nec sodales arcu. Curabitur faucibus consequat justo, at placerat eros. Nulla pharetra risus et odio varius tincidunt. Phasellus vulputate rutrum risus in sollicitudin.</p>
+    <p>Nulla ante arcu, tincidunt vel neque accumsan, ornare efficitur ipsum. Donec eget magna lorem. Aenean laoreet, velit vel feugiat ultricies, diam elit ultrices lacus, non feugiat tellus ex vitae nunc. Nam luctus, neque at congue efficitur, neque dui laoreet nibh, a dignissim tortor turpis sit amet mi. Sed nisi turpis, consequat scelerisque facilisis in, efficitur eget justo. Sed ullamcorper euismod ligula, non mollis metus volutpat ac. Mauris eu nisi vel orci consequat auctor. Phasellus eros quam, hendrerit et diam nec, porttitor ultricies nunc. Donec sit amet dui sollicitudin est ornare auctor. In dolor justo, pellentesque in interdum id, tempus non dui. Vestibulum quis turpis viverra, congue orci non, maximus orci. Praesent vitae laoreet justo. Morbi nisi tortor, euismod commodo vehicula eget, luctus et enim. Suspendisse elementum felis tellus, at pellentesque sapien cursus at. Donec lectus lacus, fermentum sed tempor vel, dapibus viverra turpis. Suspendisse dapibus erat quis ex vulputate faucibus.</p>",
+    slogan_id: slogan_1.id,
+    author_id: chogyam.id
+  })
+
+slogan_comm_1_pema = Slogan_comment.create( {
+    slog_comm_short: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    slog_comm_long: "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sagittis consectetur mauris ut vehicula. Donec sed est tristique, hendrerit lacus eget, mollis nulla. Praesent quis justo elit. Duis sed dui accumsan lacus tempor bibendum non sit amet lorem. Nulla dui magna, scelerisque at eros sit amet, condimentum faucibus erat. Duis varius lacus quis hendrerit lobortis. Aliquam metus dolor, condimentum et lacus in, venenatis blandit nibh. Maecenas nec sodales arcu. Curabitur faucibus consequat justo, at placerat eros. Nulla pharetra risus et odio varius tincidunt. Phasellus vulputate rutrum risus in sollicitudin.</p>
+    <p>Nulla ante arcu, tincidunt vel neque accumsan, ornare efficitur ipsum. Donec eget magna lorem. Aenean laoreet, velit vel feugiat ultricies, diam elit ultrices lacus, non feugiat tellus ex vitae nunc. Nam luctus, neque at congue efficitur, neque dui laoreet nibh, a dignissim tortor turpis sit amet mi. Sed nisi turpis, consequat scelerisque facilisis in, efficitur eget justo. Sed ullamcorper euismod ligula, non mollis metus volutpat ac. Mauris eu nisi vel orci consequat auctor. Phasellus eros quam, hendrerit et diam nec, porttitor ultricies nunc. Donec sit amet dui sollicitudin est ornare auctor. In dolor justo, pellentesque in interdum id, tempus non dui. Vestibulum quis turpis viverra, congue orci non, maximus orci. Praesent vitae laoreet justo. Morbi nisi tortor, euismod commodo vehicula eget, luctus et enim. Suspendisse elementum felis tellus, at pellentesque sapien cursus at. Donec lectus lacus, fermentum sed tempor vel, dapibus viverra turpis. Suspendisse dapibus erat quis ex vulputate faucibus.</p>",
+    slogan_id: slogan_1.id,
+    author_id: pema.id
+  })
+
+slogan_comm_1_traleg = Slogan_comment.create( {
+    slog_comm_short: "Fusce interdum justo sed magna hendrerit, at iaculis ex pellentesque. Aenean et urna lacus. Quisque sed elementum dui, vitae egestas leo. Quisque vitae lectus quis risus consequat hendrerit. Phasellus quis egestas metus. Maecenas tincidunt cursus magna et maximus. Pellentesque facilisis massa sem, quis feugiat orci egestas at. Ut dictum dolor a lorem faucibus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur consectetur, nulla ac ultricies condimentum, metus metus dictum elit, sit amet condimentum justo odio condimentum mauris. Aenean consequat euismod nisi eget auctor. Maecenas pellentesque lectus dolor, sed mattis nisi aliquam eget. Integer egestas sit amet leo id ornare",
+    slog_comm_long: "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sagittis consectetur mauris ut vehicula. Donec sed est tristique, hendrerit lacus eget, mollis nulla. Praesent quis justo elit. Duis sed dui accumsan lacus tempor bibendum non sit amet lorem. Nulla dui magna, scelerisque at eros sit amet, condimentum faucibus erat. Duis varius lacus quis hendrerit lobortis. Aliquam metus dolor, condimentum et lacus in, venenatis blandit nibh. Maecenas nec sodales arcu. Curabitur faucibus consequat justo, at placerat eros. Nulla pharetra risus et odio varius tincidunt. Phasellus vulputate rutrum risus in sollicitudin.</p>
+    <p>Nulla ante arcu, tincidunt vel neque accumsan, ornare efficitur ipsum. Donec eget magna lorem. Aenean laoreet, velit vel feugiat ultricies, diam elit ultrices lacus, non feugiat tellus ex vitae nunc. Nam luctus, neque at congue efficitur, neque dui laoreet nibh, a dignissim tortor turpis sit amet mi. Sed nisi turpis, consequat scelerisque facilisis in, efficitur eget justo. Sed ullamcorper euismod ligula, non mollis metus volutpat ac. Mauris eu nisi vel orci consequat auctor. Phasellus eros quam, hendrerit et diam nec, porttitor ultricies nunc. Donec sit amet dui sollicitudin est ornare auctor. In dolor justo, pellentesque in interdum id, tempus non dui. Vestibulum quis turpis viverra, congue orci non, maximus orci. Praesent vitae laoreet justo. Morbi nisi tortor, euismod commodo vehicula eget, luctus et enim. Suspendisse elementum felis tellus, at pellentesque sapien cursus at. Donec lectus lacus, fermentum sed tempor vel, dapibus viverra turpis. Suspendisse dapibus erat quis ex vulputate faucibus.</p>",
+    slogan_id: slogan_1.id,
+    author_id: traleg.id
+  })
+
 
