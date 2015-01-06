@@ -50,7 +50,363 @@ point_seven = Point.create( {
   point_text: "<h2><strong>POINT SEVEN:</strong><br> Guidelines of Mind Training</h2><h3>[Postmeditation]</h3>"
 } )
 
-# Primary commentators/commentaries:
+# SLOGANS ###
+
+slogan_1 = Slogan.create ( {
+    number: 1,
+    slogan_text: "First, train in the preliminaries.",
+    point_id: point_one.id
+  } )
+
+slogan_2 = Slogan.create ( {
+    number: 2,
+    slogan_text: "Regard all dharmas as dreams.",
+    point_id: point_two_a.id
+  } )
+
+slogan_3 = Slogan.create ( {
+    number: 3,
+    slogan_text: "Examine the nature of unborn awareness.",
+    point_id: point_two_a.id
+  } )
+
+slogan_4 = Slogan.create ( {
+    number: 4,
+    slogan_text: "Self-liberate even the antidote.",
+    point_id: point_two_a.id
+  } )
+
+slogan_5 = Slogan.create ( {
+    number: 5,
+    slogan_text: "Rest in the nature of alaya, the essence.",
+    point_id: point_two_a.id
+  } )
+
+slogan_6 = Slogan.create ( {
+    number: 6,
+    slogan_text: "In postmeditation, be a child of illusion.",
+    point_id: point_two_a.id
+  } )
+
+slogan_7 = Slogan.create ( {
+    number: 7,
+    slogan_text: "Sending and taking should be practiced alternately. These two should ride the breath.",
+    point_id: point_two_b.id
+  } )
+
+slogan_8 = Slogan.create ( {
+    number: 8,
+    slogan_text: "Three objects, three poisons, and three seeds of virtue.",
+    point_id: point_two_b.id
+  } )
+
+slogan_9 = Slogan.create ( {
+    number: 9,
+    slogan_text: "In all activities, train with slogans.",
+    point_id: point_two_b.id
+  } )
+
+slogan_10 = Slogan.create ( {
+    number: 10,
+    slogan_text: "Begin the sequence of sending and taking with yourself.",
+    point_id: point_two_b.id
+  } )
+
+slogan_11 = Slogan.create ( {
+    number: 11,
+    slogan_text: "When the world is filled with evil, transform all mishaps into the path of bodhi.",
+    point_id: point_three.id
+  } )
+
+slogan_12 = Slogan.create ( {
+    number: 12,
+    slogan_text: "Drive all blames into one.",
+    point_id: point_three.id
+  } )
+
+slogan_13 = Slogan.create ( {
+    number: 13,
+    slogan_text: "Be grateful to everyone.",
+    point_id: point_three.id
+  } )
+
+slogan_14 = Slogan.create ( {
+    number: 14,
+    slogan_text: "Seeing confusion as the four kayas is unsurpassable shunyata protection.",
+    point_id: point_three.id
+  } )
+
+slogan_15 = Slogan.create ( {
+    number: 15,
+    slogan_text: "Four practices are the best of methods.",
+    point_id: point_three.id
+  } )
+
+slogan_16 = Slogan.create ( {
+    number: 16,
+    slogan_text: "Whatever you meet unexpectedly, join it with meditation.",
+    point_id: point_three.id
+  } )
+
+slogan_17 = Slogan.create ( {
+    number: 17,
+    slogan_text: "First, train in the preliminaries.",
+    point_id: point_four.id
+  } )
+
+slogan_18 = Slogan.create ( {
+    number: 18,
+    slogan_text: "The Mahayana instruction for ejection of consciousness at death is the five strengths: how you conduct yourself is important.",
+    point_id: point_four.id
+  } )
+
+slogan_19 = Slogan.create ( {
+    number: 19,
+    slogan_text: "All dharma agrees at one point.",
+    point_id: point_five.id
+  } )
+
+slogan_20 = Slogan.create ( {
+    number: 20,
+    slogan_text: "Of the two witnesses, hold the principal one.",
+    point_id: point_five.id
+  } )
+
+slogan_21 = Slogan.create ( {
+    number: 21,
+    slogan_text: "Always maintain only a joyful mind.",
+    point_id: point_five.id
+  } )
+
+slogan_22 = Slogan.create ( {
+    number: 22,
+    slogan_text: "If you can practice even when distracted, you are well trained.",
+    point_id: point_five.id
+  } )
+
+slogan_23 = Slogan.create ( {
+    number: 23,
+    slogan_text: "Always abide by the three basic principles.",
+    point_id: point_six.id
+  } )
+
+slogan_24 = Slogan.create ( {
+    number: 24,
+    slogan_text: "Change your attitude, but remain natural.",
+    point_id: point_six.id
+  } )
+
+slogan_25 = Slogan.create ( {
+    number: 25,
+    slogan_text: "Don’t talk about injured limbs.",
+    point_id: point_six.id
+  } )
+
+slogan_26 = Slogan.create ( {
+    number: 26,
+    slogan_text: "Don’t ponder others.",
+    point_id: point_six.id
+  } )
+
+slogan_27 = Slogan.create ( {
+    number: 27,
+    slogan_text: "Work with the greatest defilements first.",
+    point_id: point_six.id
+  } )
+
+slogan_28 = Slogan.create ( {
+    number: 28,
+    slogan_text: "Abandon any hope of fruition.",
+    point_id: point_six.id
+  } )
+
+slogan_29 = Slogan.create ( {
+    number: 29,
+    slogan_text: "Abandon poisonous food.",
+    point_id: point_six.id
+  } )
+
+slogan_30 = Slogan.create ( {
+    number: 30,
+    slogan_text: "Don’t be so predictable.",
+    point_id: point_six.id
+  } )
+
+slogan_31 = Slogan.create ( {
+    number: 31,
+    slogan_text: "Don’t malign others.",
+    point_id: point_six.id
+  } )
+
+slogan_32 = Slogan.create ( {
+    number: 32,
+    slogan_text: "Don’t wait in ambush.",
+    point_id: point_six.id
+  } )
+
+slogan_33 = Slogan.create ( {
+    number: 33,
+    slogan_text: "Don’t bring things to a painful point.",
+    point_id: point_six.id
+  } )
+
+slogan_34 = Slogan.create ( {
+    number: 34,
+    slogan_text: "Don’t transfer the ox’s load to the cow.",
+    point_id: point_six.id
+  } )
+
+slogan_35 = Slogan.create ( {
+    number: 35,
+    slogan_text: "Don’t try and be the fastest.",
+    point_id: point_six.id
+  } )
+
+slogan_36 = Slogan.create ( {
+    number: 36,
+    slogan_text: "Don’t act with a twist.",
+    point_id: point_six.id
+  } )
+
+slogan_37 = Slogan.create ( {
+    number: 37,
+    slogan_text: "Don’t make gods into demons.",
+    point_id: point_six.id
+  } )
+
+slogan_38 = Slogan.create ( {
+    number: 38,
+    slogan_text: "Don’t seek others’ pain as the limbs of your own happiness.",
+    point_id: point_six.id
+  } )
+
+slogan_39 = Slogan.create ( {
+    number: 39,
+    slogan_text: "All activities should be done with one intention.",
+    point_id: point_seven.id
+  } )
+
+slogan_40 = Slogan.create ( {
+    number: 40,
+    slogan_text: "Correct all wrongs with one intention.",
+    point_id: point_seven.id
+  } )
+
+slogan_41 = Slogan.create ( {
+    number: 41,
+    slogan_text: "Two activities: one at the beginning, one at the end.",
+    point_id: point_seven.id
+  } )
+
+slogan_42 = Slogan.create ( {
+    number: 42,
+    slogan_text: "Whichever of the two occurs, be patient.",
+    point_id: point_seven.id
+  } )
+
+slogan_43 = Slogan.create ( {
+    number: 43,
+    slogan_text: "Observe these two, even at the risk of your life.",
+    point_id: point_seven.id
+  } )
+
+slogan_44 = Slogan.create ( {
+    number: 44,
+    slogan_text: "Train in the three difficulties.",
+    point_id: point_seven.id
+  } )
+
+slogan_45 = Slogan.create ( {
+    number: 45,
+    slogan_text: "Take on the three principal causes.",
+    point_id: point_seven.id
+  } )
+
+slogan_46 = Slogan.create ( {
+    number: 46,
+    slogan_text: "Pay heed that the three never wane.",
+    point_id: point_seven.id
+  } )
+
+slogan_47 = Slogan.create ( {
+    number: 47,
+    slogan_text: "Keep the three inseparable.",
+    point_id: point_seven.id
+  } )
+
+slogan_48 = Slogan.create ( {
+    number: 48,
+    slogan_text: "Train without bias in all areas. It is crucial always to do this pervasively and wholeheartedly.",
+    point_id: point_seven.id
+  } )
+
+slogan_49 = Slogan.create ( {
+    number: 49,
+    slogan_text: "Always meditate on whatever provokes resentment.",
+    point_id: point_seven.id
+  } )
+
+slogan_50 = Slogan.create ( {
+    number: 50,
+    slogan_text: "Don’t be swayed by external circumstances.",
+    point_id: point_seven.id
+  } )
+
+slogan_51 = Slogan.create ( {
+    number: 51,
+    slogan_text: "This time, practice the main points.",
+    point_id: point_seven.id
+  } )
+
+slogan_52 = Slogan.create ( {
+    number: 52,
+    slogan_text: "Don’t misinterpret.",
+    point_id: point_seven.id
+  } )
+
+slogan_53 = Slogan.create ( {
+    number: 53,
+    slogan_text: "Don’t vacillate.",
+    point_id: point_seven.id
+  } )
+
+slogan_54 = Slogan.create ( {
+    number: 54,
+    slogan_text: "Train wholeheartedly.",
+    point_id: point_seven.id
+  } )
+
+slogan_55 = Slogan.create ( {
+    number: 55,
+    slogan_text: "Liberate yourself by examining and analyzing.",
+    point_id: point_seven.id
+  } )
+
+slogan_56 = Slogan.create ( {
+    number: 56,
+    slogan_text: "Don’t wallow in self-pity.",
+    point_id: point_seven.id
+  } )
+
+slogan_57 = Slogan.create ( {
+    number: 57,
+    slogan_text: "Don’t be jealous.",
+    point_id: point_seven.id
+  } )
+
+slogan_58 = Slogan.create ( {
+    number: 58,
+    slogan_text: "Don’t be frivolous.",
+    point_id: point_seven.id
+  } )
+
+slogan_59 = Slogan.create ( {
+    number: 59,
+    slogan_text: "Don’t expect applause.",
+    point_id: point_seven.id
+  } )
+
+# Primary COMMENTATORS/commentaries: ###
 # Jamgon Kongtrul
 # Chögyam Trungpa Rinpoche
 # Pema Chödrön
@@ -72,358 +428,7 @@ traleg = Author.create( {
   name: "Traleg Kyabgon Rinpoche"
 } )
 
-# SLOGANS ###
+# POINT COMMENTARIES: ###
 
-Slogan.create ( {
-    number: 1,
-    slogan_text: "First, train in the preliminaries.",
-    point_id: point_one.id
-  } )
+# SLOGAN COMMENTARIES: ###
 
-Slogan.create ( {
-    number: 2,
-    slogan_text: "Regard all dharmas as dreams.",
-    point_id: point_two_a.id
-  } )
-
-Slogan.create ( {
-    number: 3,
-    slogan_text: "Examine the nature of unborn awareness.",
-    point_id: point_two_a.id
-  } )
-
-Slogan.create ( {
-    number: 4,
-    slogan_text: "Self-liberate even the antidote.",
-    point_id: point_two_a.id
-  } )
-
-Slogan.create ( {
-    number: 5,
-    slogan_text: "Rest in the nature of alaya, the essence.",
-    point_id: point_two_a.id
-  } )
-
-Slogan.create ( {
-    number: 6,
-    slogan_text: "In postmeditation, be a child of illusion.",
-    point_id: point_two_a.id
-  } )
-
-Slogan.create ( {
-    number: 7,
-    slogan_text: "Sending and taking should be practiced alternately. These two should ride the breath.",
-    point_id: point_two_b.id
-  } )
-
-Slogan.create ( {
-    number: 8,
-    slogan_text: "Three objects, three poisons, and three seeds of virtue.",
-    point_id: point_two_b.id
-  } )
-
-Slogan.create ( {
-    number: 9,
-    slogan_text: "In all activities, train with slogans.",
-    point_id: point_two_b.id
-  } )
-
-Slogan.create ( {
-    number: 10,
-    slogan_text: "Begin the sequence of sending and taking with yourself.",
-    point_id: point_two_b.id
-  } )
-
-Slogan.create ( {
-    number: 11,
-    slogan_text: "When the world is filled with evil, transform all mishaps into the path of bodhi.",
-    point_id: point_three.id
-  } )
-
-Slogan.create ( {
-    number: 12,
-    slogan_text: "Drive all blames into one.",
-    point_id: point_three.id
-  } )
-
-Slogan.create ( {
-    number: 13,
-    slogan_text: "Be grateful to everyone.",
-    point_id: point_three.id
-  } )
-
-Slogan.create ( {
-    number: 14,
-    slogan_text: "Seeing confusion as the four kayas is unsurpassable shunyata protection.",
-    point_id: point_three.id
-  } )
-
-Slogan.create ( {
-    number: 15,
-    slogan_text: "Four practices are the best of methods.",
-    point_id: point_three.id
-  } )
-
-Slogan.create ( {
-    number: 16,
-    slogan_text: "Whatever you meet unexpectedly, join it with meditation.",
-    point_id: point_three.id
-  } )
-
-Slogan.create ( {
-    number: 17,
-    slogan_text: "First, train in the preliminaries.",
-    point_id: point_four.id
-  } )
-
-Slogan.create ( {
-    number: 18,
-    slogan_text: "The Mahayana instruction for ejection of consciousness at death is the five strengths: how you conduct yourself is important.",
-    point_id: point_four.id
-  } )
-
-Slogan.create ( {
-    number: 19,
-    slogan_text: "All dharma agrees at one point.",
-    point_id: point_five.id
-  } )
-
-Slogan.create ( {
-    number: 20,
-    slogan_text: "Of the two witnesses, hold the principal one.",
-    point_id: point_five.id
-  } )
-
-Slogan.create ( {
-    number: 21,
-    slogan_text: "Always maintain only a joyful mind.",
-    point_id: point_five.id
-  } )
-
-Slogan.create ( {
-    number: 22,
-    slogan_text: "If you can practice even when distracted, you are well trained.",
-    point_id: point_five.id
-  } )
-
-Slogan.create ( {
-    number: 23,
-    slogan_text: "Always abide by the three basic principles.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 24,
-    slogan_text: "Change your attitude, but remain natural.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 25,
-    slogan_text: "Don’t talk about injured limbs.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 26,
-    slogan_text: "Don’t ponder others.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 27,
-    slogan_text: "Work with the greatest defilements first.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 28,
-    slogan_text: "Abandon any hope of fruition.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 29,
-    slogan_text: "Abandon poisonous food.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 30,
-    slogan_text: "Don’t be so predictable.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 31,
-    slogan_text: "Don’t malign others.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 32,
-    slogan_text: "Don’t wait in ambush.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 33,
-    slogan_text: "Don’t bring things to a painful point.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 34,
-    slogan_text: "Don’t transfer the ox’s load to the cow.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 35,
-    slogan_text: "Don’t try and be the fastest.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 36,
-    slogan_text: "Don’t act with a twist.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 37,
-    slogan_text: "Don’t make gods into demons.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 38,
-    slogan_text: "Don’t seek others’ pain as the limbs of your own happiness.",
-    point_id: point_six.id
-  } )
-
-Slogan.create ( {
-    number: 39,
-    slogan_text: "All activities should be done with one intention.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 40,
-    slogan_text: "Correct all wrongs with one intention.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 41,
-    slogan_text: "Two activities: one at the beginning, one at the end.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 42,
-    slogan_text: "Whichever of the two occurs, be patient.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 43,
-    slogan_text: "Observe these two, even at the risk of your life.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 44,
-    slogan_text: "Train in the three difficulties.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 45,
-    slogan_text: "Take on the three principal causes.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 46,
-    slogan_text: "Pay heed that the three never wane.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 47,
-    slogan_text: "Keep the three inseparable.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 48,
-    slogan_text: "Train without bias in all areas. It is crucial always to do this pervasively and wholeheartedly.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 49,
-    slogan_text: "Always meditate on whatever provokes resentment.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 50,
-    slogan_text: "Don’t be swayed by external circumstances.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 51,
-    slogan_text: "This time, practice the main points.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 52,
-    slogan_text: "Don’t misinterpret.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 53,
-    slogan_text: "Don’t vacillate.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 54,
-    slogan_text: "Train wholeheartedly.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 55,
-    slogan_text: "Liberate yourself by examining and analyzing.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 56,
-    slogan_text: "Don’t wallow in self-pity.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 57,
-    slogan_text: "Don’t be jealous.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 58,
-    slogan_text: "Don’t be frivolous.",
-    point_id: point_seven.id
-  } )
-
-Slogan.create ( {
-    number: 59,
-    slogan_text: "Don’t expect applause.",
-    point_id: point_seven.id
-  } )
