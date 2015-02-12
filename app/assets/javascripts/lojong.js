@@ -5,7 +5,7 @@ $(function(){
   theCard.on("click", function(e){
     e.preventDefault();
 
-    $("#card").addClass( 'flipped' );
+    $("#card").toggleClass( 'flipped' );
 
   });
 
