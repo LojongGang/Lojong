@@ -58,17 +58,26 @@ section.main {
   overflow: scroll; }
 
 .slogan {
-  font-size: 1.4em;
-  text-align: center; }
+  font-size: 1.7em;
+  line-height: 1.4em;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
   .slogan h2, .slogan h3 {
     color: #cfae4c;
-    font-size: 1.7em; }
+    font-size: 1.9em;
+    margin: .5em 0 .5em 0; }
 
 .container {
-  width: 200px;
-  height: 260px;
+  width: 320px;
+  height: 568px;
   position: relative;
-  perspective: 800px; }
+  perspective: 1200px;
+  margin: 3em auto 3em auto; }
 
 #card {
   width: 100%;
@@ -82,10 +91,15 @@ section.main {
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden; }
+  backface-visibility: hidden;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  border: 6px solid #cfae4c; }
 
 #card .front {
-  background: #ad291f; }
+  background-image: url("card_front_320_568_fpo.png");
+  background-size: cover; }
 
 #card .back {
   background: #f7f6ed;

@@ -6,11 +6,7 @@ $(function(){
     e.preventDefault();
 
     $("#card").toggleClass( 'flipped' );
-
   });
 
-
-
-////////////////
 });
 // end of onLoad
