@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141225150328) do
+ActiveRecord::Schema.define(version: 20150217182402) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,7 +32,6 @@ ActiveRecord::Schema.define(version: 20141225150328) do
   end
 
   create_table "slogan_comments", force: true do |t|
-    t.text    "slog_comm_short"
     t.text    "slog_comm_long"
     t.integer "slogan_id"
     t.integer "author_id"
@@ -42,6 +41,7 @@ ActiveRecord::Schema.define(version: 20141225150328) do
     t.integer "number"
     t.text    "slogan_text"
     t.integer "point_id"
+    t.text    "slog_comm_short"
   end
 
 end
