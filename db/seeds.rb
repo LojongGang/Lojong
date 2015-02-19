@@ -683,7 +683,7 @@ point_comm_7_traleg = Point_comment.create( {
     author_id: traleg.id
   })
 
-# SLOGAN COMMENTARIES: ###
+# SLOGAN COMMENTARIES (longs): ###
 
 slogan_comm_1_jamgon = Slogan_comment.create( {
     slog_comm_long: "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sagittis consectetur mauris ut vehicula. Donec sed est tristique, hendrerit lacus eget, mollis nulla. Praesent quis justo elit. Duis sed dui accumsan lacus tempor bibendum non sit amet lorem. Nulla dui magna, scelerisque at eros sit amet, condimentum faucibus erat. Duis varius lacus quis hendrerit lobortis. Aliquam metus dolor, condimentum et lacus in, venenatis blandit nibh. Maecenas nec sodales arcu. Curabitur faucibus consequat justo, at placerat eros. Nulla pharetra risus et odio varius tincidunt. Phasellus vulputate rutrum risus in sollicitudin.</p>
