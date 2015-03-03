@@ -1,5 +1,11 @@
 @import "meyer-reset";
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 $maroon: #AD291F;
 $gold: #CFAE4C;
 $red: #BA1E13;
@@ -24,19 +30,24 @@ $width-large: 1200px;
   transform: translateY(-50%);
 }
 
-// @mixin cream_fade {
-//   background: -moz-linear-gradient(top,  rgba(247,246,237,0) 0%, rgba(247,246,237,1) 100%); /* FF3.6+ */
-//   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,246,237,0)), color-stop(100%,rgba(247,246,237,1))); /* Chrome,Safari4+ */
-//   background: -webkit-linear-gradient(top,  rgba(247,246,237,0) 0%,rgba(247,246,237,1) 100%); /* Chrome10+,Safari5.1+ */
-//   background: -o-linear-gradient(top,  rgba(247,246,237,0) 0%,rgba(247,246,237,1) 100%); /* Opera 11.10+ */
-//   background: -ms-linear-gradient(top,  rgba(247,246,237,0) 0%,rgba(247,246,237,1) 100%); /* IE10+ */
-//   background: linear-gradient(to bottom,  rgba(247,246,237,0) 0%,rgba(247,246,237,1) 100%); /* W3C */
-//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-//   background: rgba(0,0,0,0);
-// }
-
 body {
   background-color: #000;
+}
+
+.center {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
 }
 
 .wrapper {
@@ -58,12 +69,12 @@ section.main {
   border: 3px solid $gold;
   @include rounded();
   padding: 1em;
-  left:5%;
-  width:90%;
-  height:90%;
-  top:5%;
-  position:absolute;
-  text-align:center;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  position: absolute;
+  text-align: center;
   overflow: scroll;
 
   // @media screen and (min-width: $width-small) and (max-width: $width-medium) {
@@ -77,6 +88,25 @@ section.main {
   //   font-size: 1.5em;
   //   max-width: 684px;
   // }
+}
+
+.nav {
+  color: $cream;
+  height: 3em;
+  padding: .5em 0;
+  text-align: center;
+  font-size: 1em;
+}
+
+.nav p {
+  display: inline-block;
+  padding-top: .5em;
+}
+
+.nav h2 {
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-block;
 }
 
 .slogan {
@@ -93,17 +123,13 @@ section.main {
   }
 }
 
-// div.fader {
-//   @include cream_fade;
-//   height: 50px;
-// }
-
+// the card flipper here // 
 .container {
   width: 320px;
   height: 568px;
   position: relative;
   perspective: 1200px;
-  margin: 3em auto 3em auto;
+  margin: 0 auto 3em auto;
 
 }
 
@@ -138,3 +164,5 @@ section.main {
 #card.flipped {
   transform: rotateY(180deg);
 }
+
+// end the card flipper // 

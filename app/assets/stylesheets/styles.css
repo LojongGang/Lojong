@@ -30,8 +30,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   background-color: #000; }
+
+.center {
+  text-align: center; }
+
+.hide {
+  display: none; }
+
+.float_left {
+  float: left; }
+
+.float_right {
+  float: right; }
 
 .wrapper {
   width: 100%;
@@ -57,6 +74,22 @@ section.main {
   text-align: center;
   overflow: scroll; }
 
+.nav {
+  color: #f7f6ed;
+  height: 3em;
+  padding: .5em 0;
+  text-align: center;
+  font-size: 1em; }
+
+.nav p {
+  display: inline-block;
+  padding-top: .5em; }
+
+.nav h2 {
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-block; }
+
 .slogan {
   font-size: 1.7em;
   line-height: 1.4em;
@@ -77,7 +110,7 @@ section.main {
   height: 568px;
   position: relative;
   perspective: 1200px;
-  margin: 3em auto 3em auto; }
+  margin: 0 auto 3em auto; }
 
 #card {
   width: 100%;
