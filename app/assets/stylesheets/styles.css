@@ -59,27 +59,14 @@ body {
   background-image: image-url("Lotus_textile_768x1024.jpg");
   background-color: #ad291f; }
 
-section.main {
-  background-color: #f7f6ed;
-  border: 3px solid #cfae4c;
-  -webkit-border-radius: 9px;
-  -moz-border-radius: 9px;
-  border-radius: 9px;
-  padding: 1em;
-  left: 5%;
-  width: 90%;
-  height: 90%;
-  top: 5%;
-  position: absolute;
-  text-align: center;
-  overflow: scroll; }
-
 .nav {
-  color: #f7f6ed;
+  color: #e7e4ca;
   height: 3em;
   padding: .5em 0;
   text-align: center;
-  font-size: 1em; }
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  width: 100%; }
 
 .nav p {
   display: inline-block;
@@ -107,10 +94,14 @@ section.main {
 
 .container {
   width: 320px;
+  position: relative;
+  margin: 0 auto 0 auto; }
+
+.card_container {
+  width: 320px;
   height: 568px;
   position: relative;
-  perspective: 1200px;
-  margin: 0 auto 3em auto; }
+  perspective: 1200px; }
 
 #card {
   width: 100%;
